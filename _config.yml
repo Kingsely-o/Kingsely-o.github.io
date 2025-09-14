@@ -12,9 +12,9 @@ title                    : "Jiajun Ou / Academic Website"
 title_separator          : "-"
 name                     : &name "Jiajun Ou"
 description              : &description "PhD Research Student at NTU Singapore, specializing in Traffic Safety Analysis and Machine Learning"
-url                      : https://kingsely-o.github.io
+url                      : https://Kingsely-o.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Kingsely-o/kingsely.github.io"
+repository               : "Kingsely-o/Kingsely-o.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
