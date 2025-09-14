@@ -7,9 +7,18 @@ author_profile: true
 
 {% include base_path %}
 
-# NGT Team
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/images/ngt-logo.png" alt="NGT Team Logo" style="max-width: 300px; height: auto;">
+</div>
+
+# Next Generation Transportation (NGT) Team
 
 Welcome to the **Next Generation Transportation (NGT) Team** - a cutting-edge research group dedicated to advancing intelligent transportation systems and traffic safety through innovative technology and data-driven solutions.
+
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/images/team-photo-1.jpg" alt="NGT Team Group Photo" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p style="font-style: italic; color: #666; margin-top: 10px;">NGT Team Research Group</p>
+</div>
 
 ## 🚗 Our Mission
 
@@ -44,6 +53,11 @@ The NGT Team focuses on developing next-generation solutions for transportation 
 - **5 Patent Applications** (4 granted, 1 pending) in traffic analysis and AI optimization
 - **International Recognition**: APICTA Awards Merit & Certificate of Nomination
 
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/images/competition-photo.jpg" alt="Competition Achievement" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p style="font-style: italic; color: #666; margin-top: 10px;">Team celebrating competition achievements</p>
+</div>
+
 ## 👥 Team Leadership
 
 ### Research Director
@@ -58,6 +72,11 @@ The NGT Team focuses on developing next-generation solutions for transportation 
 - **Prof. Weiliang Zeng** - Guangdong University of Technology
 - **Prof. Rong Yu** - Top 2% Scientists Worldwide
 - **Prof. Yuan Yong** - Top 2% Scientists Worldwide
+
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/images/team-photo-2.jpg" alt="Team Collaboration" style="max-width: 100%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p style="font-style: italic; color: #666; margin-top: 10px;">Academic collaboration and teamwork</p>
+</div>
 
 ## 🌟 Current Projects
 
@@ -116,4 +135,23 @@ Singapore
 
 ---
 
+<div style="text-align: center; margin: 40px 0;">
+  <img src="/images/ngt-logo-alt.png" alt="NGT Team Logo" style="max-width: 200px; height: auto; opacity: 0.8;">
+</div>
+
 *The NGT Team is committed to advancing transportation safety and efficiency through innovative research and collaborative partnerships. Join us in shaping the future of intelligent transportation systems!*
+
+---
+
+## 🎯 Team Vision
+
+**"Pioneering the Future of Safe and Intelligent Transportation"**
+
+Through cutting-edge AI, computer vision, and collaborative research, the NGT Team strives to create transportation systems that are not only more efficient but fundamentally safer for all road users. Our interdisciplinary approach combines technical innovation with real-world application, ensuring our research translates into tangible improvements in traffic safety and urban mobility.
+
+### Core Values
+- **Innovation**: Pushing the boundaries of transportation technology
+- **Safety**: Prioritizing the protection of all road users
+- **Collaboration**: Building bridges between academia, industry, and government
+- **Excellence**: Maintaining the highest standards in research and application
+- **Impact**: Creating solutions that benefit society
