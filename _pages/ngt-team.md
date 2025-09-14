@@ -83,6 +83,17 @@ The NGT Team focuses on developing next-generation solutions for transportation 
 ### 1. Enhanced Traffic Flow Analysis
 Developing advanced computer vision frameworks for mixed traffic trajectory extraction with unprecedented accuracy rates.
 
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <div style="width: 48%;">
+    <img src="/images/research-work-1.jpg" alt="Traffic Analysis Research" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #666; margin-top: 8px; text-align: center; font-size: 0.9em;">Advanced traffic flow analysis research</p>
+  </div>
+  <div style="width: 48%;">
+    <img src="/images/research-work-2.jpg" alt="Computer Vision Development" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #666; margin-top: 8px; text-align: center; font-size: 0.9em;">Computer vision framework development</p>
+  </div>
+</div>
+
 ### 2. LLM Edge Deployment
 Optimizing Large Language Models for educational AI PC deployment using QLoRA and PEFT techniques.
 
@@ -91,6 +102,41 @@ Creating deep learning models for predicting vehicle-bicycle interaction behavio
 
 ### 4. Environmental AI Applications
 Applying machine learning to environmental engineering challenges, including microbial activity prediction.
+
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/images/research-work-3.jpg" alt="Environmental AI Research" style="max-width: 70%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p style="font-style: italic; color: #666; margin-top: 10px;">Environmental AI and machine learning applications</p>
+</div>
+
+## 🔬 Research Environment & Activities
+
+### Laboratory Work
+Our team conducts cutting-edge research in state-of-the-art facilities, combining theoretical innovation with practical implementation.
+
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <div style="width: 48%;">
+    <img src="/images/lab-work-1.jpg" alt="Laboratory Research" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #666; margin-top: 8px; text-align: center; font-size: 0.9em;">Advanced laboratory research environment</p>
+  </div>
+  <div style="width: 48%;">
+    <img src="/images/lab-work-2.jpg" alt="Technical Development" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #666; margin-top: 8px; text-align: center; font-size: 0.9em;">Technical development and testing</p>
+  </div>
+</div>
+
+### Team Meetings & Collaboration
+Regular team meetings foster innovation, knowledge sharing, and collaborative problem-solving across all research projects.
+
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <div style="width: 48%;">
+    <img src="/images/team-meeting-1.jpg" alt="Team Meeting" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #666; margin-top: 8px; text-align: center; font-size: 0.9em;">Collaborative team meetings</p>
+  </div>
+  <div style="width: 48%;">
+    <img src="/images/team-meeting-2.jpg" alt="Research Discussion" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #666; margin-top: 8px; text-align: center; font-size: 0.9em;">Research discussions and planning</p>
+  </div>
+</div>
 
 ## 🤝 Collaboration Opportunities
 
@@ -106,6 +152,36 @@ We actively seek collaborations with:
 - **Undergraduate Interns**: Hands-on experience with cutting-edge technology
 - **Post-doctoral Researchers**: Advanced research positions
 
+## 🎓 Academic Activities & Presentations
+
+### Research Presentations
+Our team actively shares research findings through academic conferences and presentations, contributing to the global knowledge base.
+
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <div style="width: 48%;">
+    <img src="/images/presentation-1.jpg" alt="Academic Presentation" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #666; margin-top: 8px; text-align: center; font-size: 0.9em;">Research presentation at academic conference</p>
+  </div>
+  <div style="width: 48%;">
+    <img src="/images/presentation-2.jpg" alt="Knowledge Sharing" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #666; margin-top: 8px; text-align: center; font-size: 0.9em;">Knowledge sharing and academic exchange</p>
+  </div>
+</div>
+
+### Research Activities
+Continuous engagement in research activities, field studies, and collaborative projects across multiple institutions.
+
+<div style="display: flex; justify-content: space-between; margin: 20px 0;">
+  <div style="width: 48%;">
+    <img src="/images/research-activity-1.jpg" alt="Field Research" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #666; margin-top: 8px; text-align: center; font-size: 0.9em;">Field research and data collection</p>
+  </div>
+  <div style="width: 48%;">
+    <img src="/images/research-activity-2.jpg" alt="Collaborative Research" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <p style="font-style: italic; color: #666; margin-top: 8px; text-align: center; font-size: 0.9em;">Collaborative research initiatives</p>
+  </div>
+</div>
+
 ## 📊 Impact & Recognition
 
 ### Awards & Honors
@@ -113,6 +189,11 @@ We actively seek collaborations with:
 - **17th "Challenge Cup"** Guangdong College Students' Competition - Grand Prize
 - **3rd International Competition** for Intelligent Simulation of Transport Infrastructure - Second Prize
 - **9th China International "Internet+"** Innovation Competition - Provincial Bronze Award
+
+<div style="text-align: center; margin: 30px 0;">
+  <img src="/images/award-ceremony.jpg" alt="Award Ceremony" style="max-width: 70%; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <p style="font-style: italic; color: #666; margin-top: 10px;">Award ceremony and recognition</p>
+</div>
 
 ### Research Metrics
 - **98.5% Accuracy** in UAV trajectory extraction
