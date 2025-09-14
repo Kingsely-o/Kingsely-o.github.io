@@ -124,18 +124,12 @@ Our team conducts cutting-edge research in state-of-the-art facilities, combinin
   </div>
 </div>
 
-### Team Meetings & Collaboration
-Regular team meetings foster innovation, knowledge sharing, and collaborative problem-solving across all research projects.
+### Team Collaboration & Excellence
+Our collaborative environment fosters innovation through regular meetings, knowledge sharing, and collective problem-solving across all research initiatives.
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 30px 0; justify-content: center;">
-  <div style="flex: 1; min-width: 300px; max-width: 450px;">
-    <img src="/images/team-meeting-1.jpg" alt="Team Meeting" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
-    <p style="font-style: italic; color: #666; margin: 15px 0 0 0; text-align: center; font-size: 0.9em; line-height: 1.4;">Collaborative team meetings</p>
-  </div>
-  <div style="flex: 1; min-width: 300px; max-width: 450px;">
-    <img src="/images/team-meeting-2.jpg" alt="Research Discussion" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
-    <p style="font-style: italic; color: #666; margin: 15px 0 0 0; text-align: center; font-size: 0.9em; line-height: 1.4;">Research discussions and planning</p>
-  </div>
+<div style="text-align: center; margin: 40px 0;">
+  <img src="/images/team-meeting-2.jpg" alt="Team Collaboration Excellence" style="max-width: 85%; height: auto; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.2); transition: transform 0.3s ease;">
+  <p style="font-style: italic; color: #666; margin: 20px 0 0 0; font-size: 0.95em; line-height: 1.4;">Collaborative excellence in research and innovation</p>
 </div>
 
 ## 🤝 Collaboration Opportunities
@@ -154,31 +148,53 @@ We actively seek collaborations with:
 
 ## 🎓 Academic Activities & Presentations
 
-### Research Presentations
-Our team actively shares research findings through academic conferences and presentations, contributing to the global knowledge base.
+### Academic Excellence & Knowledge Sharing
+Our team is committed to advancing scientific knowledge through active participation in academic conferences, research presentations, and scholarly discourse.
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 30px 0; justify-content: center;">
-  <div style="flex: 1; min-width: 300px; max-width: 450px;">
-    <img src="/images/presentation-1.jpg" alt="Academic Presentation" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
-    <p style="font-style: italic; color: #666; margin: 15px 0 0 0; text-align: center; font-size: 0.9em; line-height: 1.4;">Research presentation at academic conference</p>
+<div style="display: flex; flex-wrap: wrap; gap: 25px; margin: 40px 0; justify-content: center;">
+  <div style="flex: 1; min-width: 320px; max-width: 460px; position: relative;">
+    <div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); padding: 20px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+      <img src="/images/new-presentation-1.jpg" alt="Academic Excellence" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); transition: all 0.3s ease;">
+      <div style="margin-top: 15px; text-align: center;">
+        <h4 style="color: #2c3e50; margin: 0 0 8px 0; font-size: 1.1em;">Academic Excellence</h4>
+        <p style="font-style: italic; color: #34495e; margin: 0; font-size: 0.9em; line-height: 1.4;">Research presentations and scholarly achievements</p>
+      </div>
+    </div>
   </div>
-  <div style="flex: 1; min-width: 300px; max-width: 450px;">
-    <img src="/images/presentation-2.jpg" alt="Knowledge Sharing" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
-    <p style="font-style: italic; color: #666; margin: 15px 0 0 0; text-align: center; font-size: 0.9em; line-height: 1.4;">Knowledge sharing and academic exchange</p>
+  <div style="flex: 1; min-width: 320px; max-width: 460px; position: relative;">
+    <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
+      <img src="/images/new-presentation-2.jpg" alt="Knowledge Exchange" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.15); transition: all 0.3s ease;">
+      <div style="margin-top: 15px; text-align: center;">
+        <h4 style="color: white; margin: 0 0 8px 0; font-size: 1.1em;">Knowledge Exchange</h4>
+        <p style="font-style: italic; color: #e8f4fd; margin: 0; font-size: 0.9em; line-height: 1.4;">International collaboration and academic networking</p>
+      </div>
+    </div>
   </div>
 </div>
 
-### Research Activities
-Continuous engagement in research activities, field studies, and collaborative projects across multiple institutions.
+### Dynamic Research Environment
+Our team thrives in a dynamic research environment that encourages continuous learning, interdisciplinary collaboration, and innovative problem-solving approaches.
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 30px 0; justify-content: center;">
-  <div style="flex: 1; min-width: 300px; max-width: 450px;">
-    <img src="/images/research-activity-1.jpg" alt="Field Research" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
-    <p style="font-style: italic; color: #666; margin: 15px 0 0 0; text-align: center; font-size: 0.9em; line-height: 1.4;">Field research and data collection</p>
+<div style="display: flex; flex-wrap: wrap; gap: 25px; margin: 40px 0; justify-content: center;">
+  <div style="flex: 1; min-width: 320px; max-width: 480px;">
+    <div style="background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%); padding: 25px; border-radius: 20px; box-shadow: 0 15px 35px rgba(255, 154, 158, 0.3); position: relative; overflow: hidden;">
+      <div style="position: absolute; top: -50px; right: -50px; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 50%;"></div>
+      <img src="/images/new-team-activity-1.jpg" alt="Innovation Hub" style="width: 100%; height: auto; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); transition: all 0.3s ease; position: relative; z-index: 2;">
+      <div style="margin-top: 20px; text-align: center; position: relative; z-index: 2;">
+        <h4 style="color: #8b1538; margin: 0 0 10px 0; font-size: 1.15em; font-weight: bold;">Innovation Hub</h4>
+        <p style="color: #6b1f47; margin: 0; font-size: 0.95em; line-height: 1.5; font-style: italic;">Fostering creativity and breakthrough research</p>
+      </div>
+    </div>
   </div>
-  <div style="flex: 1; min-width: 300px; max-width: 450px;">
-    <img src="/images/research-activity-2.jpg" alt="Collaborative Research" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 6px 15px rgba(0,0,0,0.15); transition: transform 0.3s ease;">
-    <p style="font-style: italic; color: #666; margin: 15px 0 0 0; text-align: center; font-size: 0.9em; line-height: 1.4;">Collaborative research initiatives</p>
+  <div style="flex: 1; min-width: 320px; max-width: 480px;">
+    <div style="background: linear-gradient(45deg, #a8edea 0%, #fed6e3 100%); padding: 25px; border-radius: 20px; box-shadow: 0 15px 35px rgba(168, 237, 234, 0.3); position: relative; overflow: hidden;">
+      <div style="position: absolute; bottom: -30px; left: -30px; width: 80px; height: 80px; background: rgba(255,255,255,0.15); border-radius: 50%;"></div>
+      <img src="/images/new-team-activity-2.jpg" alt="Collaborative Excellence" style="width: 100%; height: auto; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); transition: all 0.3s ease; position: relative; z-index: 2;">
+      <div style="margin-top: 20px; text-align: center; position: relative; z-index: 2;">
+        <h4 style="color: #2d5a5a; margin: 0 0 10px 0; font-size: 1.15em; font-weight: bold;">Collaborative Excellence</h4>
+        <p style="color: #3d6a6a; margin: 0; font-size: 0.95em; line-height: 1.5; font-style: italic;">Building bridges across disciplines and institutions</p>
+      </div>
+    </div>
   </div>
 </div>
 
