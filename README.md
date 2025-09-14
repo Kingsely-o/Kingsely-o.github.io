@@ -1,75 +1,144 @@
-# Academic Pages
-**Academic Pages is a Github Pages template for academic websites.**
+# Jiajun Ou - Academic Website
 
-# Getting Started
+**Personal academic website of Jiajun Ou, PhD Research Student at Nanyang Technological University, Singapore.**
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+🌐 **Live Website**: [https://Kingsely-o.github.io](https://Kingsely-o.github.io)
 
-See more info at https://academicpages.github.io/
+## About
 
-## Running locally
+This is the official academic website of Jiajun Ou, showcasing research in traffic safety analysis, machine learning, and environmental engineering. The website serves as a comprehensive portfolio of academic achievements, ongoing research projects, and professional collaborations.
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+### Research Focus
+- **Traffic Safety Analysis**: Advanced computer vision and AI for transportation systems
+- **Machine Learning**: Deep learning applications in environmental and transportation engineering
+- **Edge AI Computing**: Optimization of large language models for educational deployment
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+## Website Features
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+### 🔬 Research & Publications
+- **5+ SCI Publications** in top-tier journals (JCR Q1/Q2)
+- Detailed publication pages with abstracts and links
+- Research impact and citation information
 
-## Using Docker
+### 🏆 Patents & Projects
+- **5 Patent Applications** (4 granted, 1 pending)
+- Detailed project descriptions and technical innovations
+- Funding information and collaboration details
 
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
+### 👨‍🎓 Academic Profile
+- Comprehensive CV with education and research experience
+- Awards and honors including National Scholarships
+- Professional skills and technical expertise
 
-Start by build the container:
+### 🚀 NGT Team
+- **Next Generation Transportation (NGT) Team** research group
+- Team leadership and collaboration opportunities
+- Current projects and funding achievements
+## Key Achievements
 
-```bash
-docker build -t jekyll-site .
+### 🏅 Awards & Recognition
+- **The Asia Pacific ICT Alliance Awards (APICTA)** Merit & Certificate of Nomination (2023)
+- **National Scholarship** for Master's Degree Students (2023, 2024)
+- **17th "Challenge Cup"** Guangdong College Students' Competition - Grand Prize
+- **3rd International Competition** for Intelligent Simulation of Transport Infrastructure - Second Prize
+
+### 💰 Research Funding
+- **$100,000** - TrafficSense Project (HKSTP, Hong Kong)
+- **SDG$5,000** - Smartflow Project (NTU Singapore)
+- **Multiple Grants** - Collaboration with 8 tertiary institutions in Greater Bay Area
+
+### 📊 Research Impact
+- **98.5% Accuracy** - Enhanced AT-YOLOv8 trajectory extraction framework
+- **5+ Publications** - Top-tier SCI journals (Q1/Q2)
+- **5 Patents** - Traffic analysis and AI optimization technologies
+
+## Technical Stack
+
+### Programming & Frameworks
+- **Languages**: Python, JavaScript, C
+- **ML/AI**: PyTorch, OpenVINO, CUDA
+- **Tools**: PyCharm, MATLAB, Xcode
+
+### Website Technology
+- **Platform**: GitHub Pages
+- **Framework**: Jekyll with Academic Pages theme
+- **Domain**: Custom academic domain
+
+## Repository Structure
+
+```
+├── _config.yml          # Site configuration
+├── _data/
+│   └── navigation.yml   # Website navigation menu
+├── _pages/             # Main website pages
+│   ├── about.md        # Homepage content
+│   ├── cv.md           # Curriculum Vitae
+│   └── ngt-team.md     # NGT Team information
+├── _publications/      # Research publications
+├── _portfolio/         # Patents and projects
+├── _talks/            # Presentations (coming soon)
+├── _teaching/         # Teaching experience (coming soon)
+├── files/             # Downloadable files (CV, etc.)
+└── images/           # Website images and profile photo
 ```
 
-Next, run the container:
-```bash
-docker run -p 4000:4000 --rm -v $(pwd):/usr/src/app jekyll-site
-```
+## Contact Information
 
-# Maintenance
+**Jiajun Ou** - PhD Research Student
+Nanyang Technological University, Singapore
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+- 📧 **Email**: N2409279A@e.ntu.edu.sg
+- 📱 **Phone**: +86 13824760736
+- 🔗 **GitHub**: [github.com/Kingsely-o](https://github.com/Kingsely-o)
+- 🌐 **Website**: [Kingsely-o.github.io](https://Kingsely-o.github.io)
+- 💼 **LinkedIn**: [LinkedIn Profile](#)
+- 📑 **ResearchGate**: [ResearchGate Profile](#)
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+## Academic Supervision
 
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+- **PhD Supervisor**: Prof. Zhu Feng (NTU Singapore)
+- **Previous Advisors**:
+  - Prof. Weiliang Zeng (Guangdong University of Technology)
+  - Prof. Rong Yu (Top 2% Scientists Worldwide)
+  - Prof. Yuan Yong (Top 2% Scientists Worldwide)
 
 ---
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+*This website is powered by Jekyll and hosted on GitHub Pages. Last updated: September 2024*
+
+## Local Development
+
+If you want to run the website locally for development:
+
+### Prerequisites
+- Ruby (version 2.7 or higher)
+- Bundler gem
+- Git
+
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/Kingsely-o/Kingsely-o.github.io.git
+cd Kingsely-o.github.io
+
+# Install dependencies
+bundle install
+
+# Serve the site locally
+bundle exec jekyll serve
+```
+
+The site will be available at `http://localhost:4000`
+
+### Making Changes
+1. Edit the relevant markdown files in `_pages/`, `_publications/`, etc.
+2. The site will automatically rebuild when you save changes
+3. Commit and push changes to update the live site
+
+## Acknowledgments
+
+This website is built using the [Academic Pages](https://github.com/academicpages/academicpages.github.io) Jekyll theme, which is based on the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme.
+
+## License
+
+This project is licensed under the MIT License - see the original [Academic Pages repository](https://github.com/academicpages/academicpages.github.io) for details.
