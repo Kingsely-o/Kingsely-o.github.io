@@ -1,16 +1,61 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Talks & Presentations"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+{% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+{% assign talk_count = site.talks | size %}
+{% assign has_real_talks = false %}
+{% for post in site.talks %}
+  {% unless post.title contains "Coming Soon" %}
+    {% assign has_real_talks = true %}
+  {% endunless %}
+{% endfor %}
 
+{% if has_real_talks %}
+  {% for post in site.talks reversed %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% else %}
+<div class="coming-soon fade-up">
+  <div class="coming-soon-icon">&#127908;</div>
+  <h2>Coming Soon</h2>
+  <p>Information about upcoming talks, conference presentations, and invited lectures will be shared here. Stay tuned for updates on research presentations in traffic safety, computer vision, and AI.</p>
+</div>
+
+<div class="section-header fade-up" style="margin-top: 50px;">
+  <h2>Planned Topics</h2>
+</div>
+
+<div class="card-grid card-grid-3 fade-up">
+  <div class="card">
+    <div class="card-icon">&#128663;</div>
+    <h3>Traffic Safety Analysis</h3>
+    <p>Mixed traffic flow analysis, trajectory extraction, and collision risk assessment using AI</p>
+  </div>
+  <div class="card">
+    <div class="card-icon">&#129302;</div>
+    <h3>Computer Vision</h3>
+    <p>Enhanced YOLOv8 frameworks, real-time object detection, and UAV-based monitoring</p>
+  </div>
+  <div class="card">
+    <div class="card-icon">&#128187;</div>
+    <h3>Edge AI Deployment</h3>
+    <p>Optimizing LLMs for edge computing using QLoRA, PEFT, and model compression</p>
+  </div>
+</div>
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+});
+</script>
