@@ -1,14 +1,107 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Patents & Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<p style="color: var(--text-light, #546e7a); font-size: 0.95em; line-height: 1.6; margin-bottom: 16px;">
+  Granted patents and ongoing research projects in traffic analysis, AI optimization, and blockchain applications.
+</p>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 24px; margin-top: 24px;">
 
+  <div class="patent-card fade-up">
+    <div class="patent-card-body">
+      <span class="patent-status granted">Granted</span>
+      <h4>Method for Solving Medical Waste Collection Problems Using an Improved Genetic Algorithm</h4>
+      <p>Optimizing medical waste collection routes using genetic algorithm improvements for more efficient healthcare waste management.</p>
+      <div class="patent-id">CN113762780B</div>
+    </div>
+  </div>
+
+  <div class="patent-card fade-up">
+    <div class="patent-card-body">
+      <span class="patent-status granted">Granted</span>
+      <h4>Method for Extracting UAV Aerial Video Trajectory Data of Traffic Participants</h4>
+      <p>Advanced trajectory extraction from UAV footage at complex intersections using enhanced computer vision techniques.</p>
+      <div class="patent-id">CN118172385A</div>
+    </div>
+  </div>
+
+  <div class="patent-card fade-up">
+    <div class="patent-card-body">
+      <span class="patent-status granted">Granted</span>
+      <h4>Blockchain Life Bill Payment Method Based on Multi-level Trust Byzantine Consensus</h4>
+      <p>Innovative blockchain-based payment method utilizing multi-level trust mechanisms for secure bill payment processing.</p>
+      <div class="patent-id">CN118154177B</div>
+    </div>
+  </div>
+
+  <div class="patent-card fade-up">
+    <div class="patent-card-body">
+      <span class="patent-status granted">Granted</span>
+      <h4>U-turn Intent and Trajectory Prediction Based on High-Dimensional Embedding</h4>
+      <p>Predicting U-turn intent and trajectory using high-dimensional embedding and deep parallel computing methods.</p>
+      <div class="patent-id">CN116312050A</div>
+    </div>
+  </div>
+
+  <div class="patent-card fade-up">
+    <div class="patent-card-body">
+      <span class="patent-status pending">Pending</span>
+      <h4>Deep Learning for Interaction Between Left-Turning Vehicles and Violating Bicycles</h4>
+      <p>Modeling complex interaction behaviors between vehicles and cyclists at intersections using deep learning approaches.</p>
+      <div class="patent-id">CN2023110619318</div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Research Projects -->
+<div class="section-header fade-up" style="margin-top: 60px;">
+  <h2>Research Projects</h2>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+  <div class="card fade-up">
+    <div class="card-icon">&#128200;</div>
+    <h3>TrafficSense</h3>
+    <ul>
+      <li>$100,000 funding from HKSTP Hong Kong</li>
+      <li>Advanced traffic analysis and monitoring</li>
+      <li>Real-world deployment in Hong Kong</li>
+    </ul>
+  </div>
+  <div class="card fade-up">
+    <div class="card-icon">&#9889;</div>
+    <h3>Smartflow</h3>
+    <ul>
+      <li>SGD $5,000 from NTU Singapore</li>
+      <li>Smart traffic flow optimization</li>
+      <li>Ongoing development</li>
+    </ul>
+  </div>
+  <div class="card fade-up">
+    <div class="card-icon">&#128187;</div>
+    <h3>Edge AIPC</h3>
+    <ul>
+      <li>8 tertiary institutions in Greater Bay Area</li>
+      <li>LLM optimization for education</li>
+      <li>QLoRA &amp; PEFT techniques</li>
+    </ul>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+});
+</script>
