@@ -5,32 +5,93 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% include base_path %}
+
 {% if site.author.googlescholar %}
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-{% include base_path %}
+<p style="color: var(--text-light, #546e7a); font-size: 0.95em; line-height: 1.6; margin-bottom: 32px;">
+  Selected peer-reviewed publications in traffic safety, machine learning, environmental engineering, and computer vision. Published in top-tier journals including Environmental Research, Science China Technological Sciences, and Neurocomputing.
+</p>
 
-<!-- New style rendering if publication categories are defined -->
 {% if site.publication_category %}
-  {% for category in site.publication_category  %}
+  {% for category in site.publication_category %}
     {% assign title_shown = false %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <div class="section-header fade-up" style="text-align: left; margin-bottom: 24px; margin-top: 36px;">
+          <h2 style="font-size: 1.4em;">{{ category[1].title }}</h2>
+        </div>
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+
+      <div class="pub-card fade-up">
+        {% if post.venue %}
+          <span class="pub-venue">{{ post.venue }}</span>
+        {% endif %}
+        <h3 class="pub-title">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" style="color: inherit; text-decoration: none;">{{ post.title }}</a>
+          {% else %}
+            {{ post.title }}
+          {% endif %}
+        </h3>
+        {% if post.excerpt %}
+          <p class="pub-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+        {% endif %}
+        {% if post.citation %}
+          <p style="font-size: 0.78em; color: #90a4ae; line-height: 1.5; margin: 0 0 12px;">{{ post.citation }}</p>
+        {% endif %}
+        <div class="pub-links">
+          {% if post.paperurl %}
+            <a href="{{ post.paperurl }}" class="btn-paper" target="_blank">&#128196; Paper</a>
+          {% endif %}
+          <a href="{{ base_path }}{{ post.url }}" class="btn-cite">&#128269; Details</a>
+        </div>
+      </div>
+
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    <div class="pub-card fade-up">
+      {% if post.venue %}
+        <span class="pub-venue">{{ post.venue }}</span>
+      {% endif %}
+      <h3 class="pub-title">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" style="color: inherit; text-decoration: none;">{{ post.title }}</a>
+        {% else %}
+          {{ post.title }}
+        {% endif %}
+      </h3>
+      {% if post.excerpt %}
+        <p class="pub-excerpt">{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+      {% endif %}
+      {% if post.citation %}
+        <p style="font-size: 0.78em; color: #90a4ae; line-height: 1.5; margin: 0 0 12px;">{{ post.citation }}</p>
+      {% endif %}
+      <div class="pub-links">
+        {% if post.paperurl %}
+          <a href="{{ post.paperurl }}" class="btn-paper" target="_blank">&#128196; Paper</a>
+        {% endif %}
+        <a href="{{ base_path }}{{ post.url }}" class="btn-cite">&#128269; Details</a>
+      </div>
+    </div>
   {% endfor %}
 {% endif %}
 
-
-
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+});
+</script>
