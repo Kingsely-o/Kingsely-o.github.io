@@ -7,6 +7,55 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% assign teaching_count = site.teaching | size %}
+{% assign has_real_teaching = false %}
+{% for post in site.teaching %}
+  {% unless post.title contains "Coming Soon" %}
+    {% assign has_real_teaching = true %}
+  {% endunless %}
 {% endfor %}
+
+{% if has_real_teaching %}
+  {% for post in site.teaching reversed %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% else %}
+<div class="coming-soon fade-up">
+  <div class="coming-soon-icon">&#127891;</div>
+  <h2>Coming Soon</h2>
+  <p>Teaching experience, course materials, and mentorship information will be available here. Currently focused on research activities at NTU Singapore.</p>
+</div>
+
+<div class="section-header fade-up" style="margin-top: 50px;">
+  <h2>Areas of Interest</h2>
+</div>
+
+<div class="card-grid card-grid-3 fade-up">
+  <div class="card">
+    <div class="card-icon">&#128202;</div>
+    <h3>Machine Learning</h3>
+    <p>Deep learning, neural networks, model optimization, and practical AI applications</p>
+  </div>
+  <div class="card">
+    <div class="card-icon">&#128225;</div>
+    <h3>Data Science</h3>
+    <p>Data mining, statistical analysis, big data processing, and visualization techniques</p>
+  </div>
+  <div class="card">
+    <div class="card-icon">&#128759;</div>
+    <h3>Intelligent Transportation</h3>
+    <p>Traffic safety systems, computer vision for transportation, and smart city technologies</p>
+  </div>
+</div>
+{% endif %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+});
+</script>
