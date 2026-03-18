@@ -15,8 +15,9 @@ author_profile: false
 
 /* Remove sidebar for full-width layout */
 .sidebar { display: none !important; }
-#main { max-width: 100%; padding: 0; float: none; }
-.archive { max-width: 100%; padding: 0; }
+#main { max-width: 100% !important; padding: 0 !important; float: none !important; width: 100% !important; margin-left: 0 !important; }
+.archive { max-width: 100% !important; padding: 0 !important; width: 100% !important; float: none !important; margin-left: 0 !important; }
+.page { float: none !important; width: 100% !important; }
 
 /* CSS Variables */
 :root {
@@ -1083,7 +1084,7 @@ author_profile: false
     <h2>Join Our Research Team</h2>
     <p>We welcome PhD students, Master's students, undergraduate interns, and post-doctoral researchers passionate about intelligent transportation.</p>
     <div class="ngt-cta-buttons">
-      <a href="mailto:N2409279A@e.ntu.edu.sg" class="ngt-cta-btn primary">&#9993;&#65039; Contact Us</a>
+      <a href="mailto:Jiajun010@e.ntu.edu.sg" class="ngt-cta-btn primary">&#9993;&#65039; Contact Us</a>
       <a href="https://github.com/Kingsely-o" class="ngt-cta-btn secondary">&#128187; GitHub</a>
     </div>
   </div>
