@@ -2,7 +2,7 @@
 layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
@@ -117,50 +117,49 @@ redirect_from:
 <h2>Innovation &amp; Entrepreneurship Awards</h2>
 
 <div class="award-list">
+  <div class="award-item is-new">
+    <div class="award-info">
+      <h4>Chua Thian Poh Pinnacle Prize &mdash; Finalist <span class="tag-new">New</span></h4>
+      <p>NTU Entrepreneurship Academy, Feb &ndash; Oct 2026</p>
+    </div>
+  </div>
   <div class="award-item">
-    <div class="award-badge">&#127942;</div>
     <div class="award-info">
       <h4>APICTA Awards (Twice)</h4>
       <p>Merit 2023 (China Rep) &amp; NTU Rep at APICTA 2024 Brunei</p>
     </div>
   </div>
   <div class="award-item">
-    <div class="award-badge">&#127941;</div>
     <div class="award-info">
       <h4>National Scholarship (Twice)</h4>
       <p>Top 0.2% nationally, Ministry of Education (2023 &amp; 2024)</p>
     </div>
   </div>
   <div class="award-item">
-    <div class="award-badge">&#127775;</div>
     <div class="award-info">
       <h4>Challenge Cup Grand Prize</h4>
       <p>Guangdong Province, premier innovation competition (2023)</p>
     </div>
   </div>
   <div class="award-item">
-    <div class="award-badge">&#128161;</div>
     <div class="award-info">
       <h4>Internet+ Bronze Award</h4>
       <p>Guangdong, national entrepreneurship competition (2023)</p>
     </div>
   </div>
   <div class="award-item">
-    <div class="award-badge">&#127944;</div>
     <div class="award-info">
       <h4>International Competition 2nd Prize</h4>
       <p>Intelligent Simulation of Transport Infrastructure (2024)</p>
     </div>
   </div>
   <div class="award-item">
-    <div class="award-badge">&#128202;</div>
     <div class="award-info">
       <h4>First-Class Scholarship (Twice)</h4>
       <p>Rank 1 in School of Automation (2023 &amp; 2024)</p>
     </div>
   </div>
   <div class="award-item">
-    <div class="award-badge">&#127891;</div>
     <div class="award-info">
       <h4>Outstanding Undergraduate Thesis</h4>
       <p>Guangdong University of Technology (2022)</p>

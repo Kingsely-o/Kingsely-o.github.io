@@ -21,19 +21,19 @@ author_profile: false
 
 /* CSS Variables */
 :root {
-  --ngt-primary: #0d47a1;
-  --ngt-primary-light: #1565c0;
-  --ngt-primary-dark: #0a3680;
-  --ngt-accent: #00bcd4;
-  --ngt-accent-light: #4dd0e1;
-  --ngt-gradient: linear-gradient(135deg, #0d47a1 0%, #1976d2 50%, #00bcd4 100%);
-  --ngt-gradient-soft: linear-gradient(135deg, #e3f2fd 0%, #e0f7fa 100%);
-  --ngt-text: #263238;
-  --ngt-text-light: #546e7a;
-  --ngt-bg-light: #f8fafe;
-  --ngt-card-shadow: 0 8px 30px rgba(13, 71, 161, 0.08);
-  --ngt-card-hover: 0 16px 40px rgba(13, 71, 161, 0.15);
-  --ngt-radius: 16px;
+  --ngt-primary: #1d1d1f;
+  --ngt-primary-light: #424245;
+  --ngt-primary-dark: #000000;
+  --ngt-accent: #0071e3;
+  --ngt-accent-light: #2997ff;
+  --ngt-gradient: linear-gradient(180deg, #000000 0%, #1d1d1f 100%);
+  --ngt-gradient-soft: #f5f5f7;
+  --ngt-text: #1d1d1f;
+  --ngt-text-light: #6e6e73;
+  --ngt-bg-light: #f5f5f7;
+  --ngt-card-shadow: none;
+  --ngt-card-hover: 0 20px 50px rgba(0, 0, 0, 0.08);
+  --ngt-radius: 22px;
   --ngt-section-gap: 80px;
 }
 
@@ -45,7 +45,7 @@ author_profile: false
   text-align: center;
   position: relative;
   overflow: hidden;
-  margin: -20px -40px 0;
+  margin: 0;
 }
 .ngt-hero::before {
   content: '';
@@ -55,7 +55,7 @@ author_profile: false
   width: 200%;
   height: 200%;
   background: radial-gradient(circle at 30% 70%, rgba(255,255,255,0.06) 0%, transparent 50%),
-              radial-gradient(circle at 70% 30%, rgba(0,188,212,0.1) 0%, transparent 50%);
+              radial-gradient(circle at 70% 30%, rgba(41,151,255,0.10) 0%, transparent 50%);
   animation: heroFloat 20s ease-in-out infinite;
 }
 @keyframes heroFloat {
@@ -78,7 +78,7 @@ author_profile: false
 }
 @keyframes logoGlow {
   from { filter: drop-shadow(0 4px 20px rgba(0,0,0,0.3)); }
-  to { filter: drop-shadow(0 4px 30px rgba(0,188,212,0.5)); }
+  to { filter: drop-shadow(0 4px 30px rgba(41,151,255,0.35)); }
 }
 .ngt-hero h1 {
   font-size: 2.8em;
@@ -121,8 +121,7 @@ author_profile: false
 }
 .ngt-section:nth-child(even) {
   background: var(--ngt-bg-light);
-  margin: 0 -40px;
-  padding: 60px 40px;
+  padding: 60px 0;
 }
 .ngt-section-header {
   text-align: center;
@@ -201,7 +200,7 @@ author_profile: false
   gap: 28px;
 }
 .ngt-research-card {
-  background: white;
+  background: #f5f5f7;
   border-radius: var(--ngt-radius);
   padding: 36px 28px;
   box-shadow: var(--ngt-card-shadow);
@@ -216,7 +215,7 @@ author_profile: false
   top: 0;
   left: 0;
   right: 0;
-  height: 4px;
+  height: 0;
   background: var(--ngt-gradient);
   transition: height 0.3s ease;
 }
@@ -561,7 +560,7 @@ author_profile: false
   color: var(--ngt-primary);
 }
 .ngt-cta-btn.primary:hover {
-  background: #e3f2fd;
+  background: #f5f5f7;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
@@ -634,10 +633,19 @@ author_profile: false
 
 /* ---- Scroll Animations ---- */
 .ngt-fade-up {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  opacity: 1;
 }
+
+/* Text on dark navy blocks stays light (site-wide heading colour is ink) */
+.ngt-hero h1,
+.ngt-hero p,
+.ngt-gallery-overlay h4,
+.ngt-gallery-overlay p,
+.ngt-cta h2,
+.ngt-cta p { color: #fff !important; }
+.ngt-hero .subtitle,
+.ngt-cta p { color: rgba(255, 255, 255, 0.82) !important; }
+.ngt-hero-caption { color: rgba(255, 255, 255, 0.7) !important; }
 .ngt-fade-up.visible {
   opacity: 1;
   transform: translateY(0);
@@ -680,22 +688,18 @@ author_profile: false
 <div class="ngt-container">
   <div class="ngt-stats ngt-fade-up">
     <div class="ngt-stat-card">
-      <div class="ngt-stat-icon">&#127919;</div>
       <p class="ngt-stat-number">98.5%</p>
       <p class="ngt-stat-label">Detection Accuracy</p>
     </div>
     <div class="ngt-stat-card">
-      <div class="ngt-stat-icon">&#128176;</div>
       <p class="ngt-stat-number">$100K+</p>
       <p class="ngt-stat-label">Research Funding</p>
     </div>
     <div class="ngt-stat-card">
-      <div class="ngt-stat-icon">&#128218;</div>
       <p class="ngt-stat-number">5+</p>
       <p class="ngt-stat-label">SCI Publications</p>
     </div>
     <div class="ngt-stat-card">
-      <div class="ngt-stat-icon">&#129309;</div>
       <p class="ngt-stat-number">8</p>
       <p class="ngt-stat-label">Institutional Partners</p>
     </div>
@@ -703,7 +707,7 @@ author_profile: false
 </div>
 
 <!-- ==================== MISSION ==================== -->
-<div class="ngt-section" style="background: var(--ngt-bg-light); margin: 0 -40px; padding: 60px 40px;">
+<div class="ngt-section" style="background: var(--ngt-bg-light); padding: 60px 0;">
   <div class="ngt-container">
     <div class="ngt-section-header ngt-fade-up">
       <h2>Our Mission</h2>
@@ -720,7 +724,6 @@ author_profile: false
     </div>
     <div class="ngt-research-grid ngt-fade-up">
       <div class="ngt-research-card">
-        <div class="card-icon">&#128663;</div>
         <h3>Traffic Safety Analysis</h3>
         <ul>
           <li><strong>Mixed Traffic Flow Analysis</strong> &mdash; trajectory extraction &amp; behavior prediction</li>
@@ -729,7 +732,6 @@ author_profile: false
         </ul>
       </div>
       <div class="ngt-research-card">
-        <div class="card-icon">&#129302;</div>
         <h3>Computer Vision &amp; AI</h3>
         <ul>
           <li><strong>AT-YOLOv8 Framework</strong> &mdash; 98.5% accuracy from UAV footage</li>
@@ -738,7 +740,6 @@ author_profile: false
         </ul>
       </div>
       <div class="ngt-research-card">
-        <div class="card-icon">&#127961;</div>
         <h3>Smart Transportation</h3>
         <ul>
           <li><strong>Intelligent Management</strong> &mdash; real-time optimization &amp; control</li>
@@ -751,7 +752,7 @@ author_profile: false
 </div>
 
 <!-- ==================== CURRENT PROJECTS ==================== -->
-<div class="ngt-section" style="background: var(--ngt-bg-light); margin: 0 -40px; padding: 60px 40px;">
+<div class="ngt-section" style="background: var(--ngt-bg-light); padding: 60px 0;">
   <div class="ngt-container">
     <div class="ngt-section-header ngt-fade-up">
       <h2>Current Projects</h2>
@@ -803,7 +804,6 @@ author_profile: false
     <!-- Funded Projects -->
     <div class="ngt-research-grid ngt-fade-up" style="margin-bottom: 40px;">
       <div class="ngt-research-card">
-        <div class="card-icon">&#128200;</div>
         <h3>TrafficSense</h3>
         <ul>
           <li>$100,000 funding from HKSTP</li>
@@ -812,7 +812,6 @@ author_profile: false
         </ul>
       </div>
       <div class="ngt-research-card">
-        <div class="card-icon">&#9889;</div>
         <h3>Smartflow</h3>
         <ul>
           <li>SGD $5,000 from NTU Singapore</li>
@@ -821,7 +820,6 @@ author_profile: false
         </ul>
       </div>
       <div class="ngt-research-card">
-        <div class="card-icon">&#128187;</div>
         <h3>Edge AIPC</h3>
         <ul>
           <li>8 tertiary institutions in GBA</li>
@@ -834,28 +832,24 @@ author_profile: false
     <!-- Awards -->
     <div class="ngt-awards-grid ngt-fade-up">
       <div class="ngt-award-item">
-        <div class="ngt-award-badge">&#127942;</div>
         <div class="ngt-award-info">
           <h4>National Scholarship</h4>
           <p>Master's Degree Students (2023, 2024)</p>
         </div>
       </div>
       <div class="ngt-award-item">
-        <div class="ngt-award-badge">&#127941;</div>
         <div class="ngt-award-info">
           <h4>Challenge Cup Grand Prize</h4>
           <p>17th Guangdong College Students' Competition</p>
         </div>
       </div>
       <div class="ngt-award-item">
-        <div class="ngt-award-badge">&#127944;</div>
         <div class="ngt-award-info">
           <h4>APICTA Merit Award</h4>
           <p>Asia Pacific ICT Alliance Awards (2023)</p>
         </div>
       </div>
       <div class="ngt-award-item">
-        <div class="ngt-award-badge">&#127775;</div>
         <div class="ngt-award-info">
           <h4>International Competition</h4>
           <p>Intelligent Simulation of Transport Infrastructure &mdash; 2nd Prize</p>
@@ -876,7 +870,7 @@ author_profile: false
 </div>
 
 <!-- ==================== TEAM ==================== -->
-<div class="ngt-section" style="background: var(--ngt-bg-light); margin: 0 -40px; padding: 60px 40px;">
+<div class="ngt-section" style="background: var(--ngt-bg-light); padding: 60px 0;">
   <div class="ngt-container">
     <div class="ngt-section-header ngt-fade-up">
       <h2>Team &amp; Collaborators</h2>
@@ -960,7 +954,7 @@ author_profile: false
 </div>
 
 <!-- ==================== ACADEMIC ACTIVITIES ==================== -->
-<div class="ngt-section" style="background: var(--ngt-bg-light); margin: 0 -40px; padding: 60px 40px;">
+<div class="ngt-section" style="background: var(--ngt-bg-light); padding: 60px 0;">
   <div class="ngt-container">
     <div class="ngt-section-header ngt-fade-up">
       <h2>Academic Activities</h2>
@@ -1018,22 +1012,18 @@ author_profile: false
     </div>
     <div class="ngt-collab-grid ngt-fade-up">
       <div class="ngt-collab-card">
-        <div class="ngt-collab-icon">&#127979;</div>
         <h4>Academic Institutions</h4>
         <p>Research partnerships and student exchanges</p>
       </div>
       <div class="ngt-collab-card">
-        <div class="ngt-collab-icon">&#127981;</div>
         <h4>Industry Partners</h4>
         <p>Technology transfer and commercial applications</p>
       </div>
       <div class="ngt-collab-card">
-        <div class="ngt-collab-icon">&#127963;</div>
         <h4>Government Agencies</h4>
         <p>Policy development and implementation</p>
       </div>
       <div class="ngt-collab-card">
-        <div class="ngt-collab-icon">&#127760;</div>
         <h4>International Orgs</h4>
         <p>Global transportation safety initiatives</p>
       </div>
@@ -1042,7 +1032,7 @@ author_profile: false
 </div>
 
 <!-- ==================== VISION & VALUES ==================== -->
-<div class="ngt-section" style="background: var(--ngt-bg-light); margin: 0 -40px; padding: 60px 40px;">
+<div class="ngt-section" style="background: var(--ngt-bg-light); padding: 60px 0;">
   <div class="ngt-container">
     <div class="ngt-section-header ngt-fade-up">
       <h2>Our Vision &amp; Values</h2>
@@ -1050,27 +1040,22 @@ author_profile: false
     </div>
     <div class="ngt-values-grid ngt-fade-up">
       <div class="ngt-value-item">
-        <div class="ngt-value-icon">&#128161;</div>
         <h4>Innovation</h4>
         <p>Pushing the boundaries of transportation technology</p>
       </div>
       <div class="ngt-value-item">
-        <div class="ngt-value-icon">&#128737;&#65039;</div>
         <h4>Safety</h4>
         <p>Protecting all road users</p>
       </div>
       <div class="ngt-value-item">
-        <div class="ngt-value-icon">&#129309;</div>
         <h4>Collaboration</h4>
         <p>Bridging academia, industry &amp; government</p>
       </div>
       <div class="ngt-value-item">
-        <div class="ngt-value-icon">&#127942;</div>
         <h4>Excellence</h4>
         <p>Highest standards in research</p>
       </div>
       <div class="ngt-value-item">
-        <div class="ngt-value-icon">&#127758;</div>
         <h4>Impact</h4>
         <p>Solutions that benefit society</p>
       </div>

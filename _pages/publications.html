@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
@@ -48,9 +48,9 @@ author_profile: true
         {% endif %}
         <div class="pub-links">
           {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" class="btn-paper" target="_blank">&#128196; Paper</a>
+            <a href="{{ post.paperurl }}" class="btn-paper" target="_blank">Paper</a>
           {% endif %}
-          <a href="{{ base_path }}{{ post.url }}" class="btn-cite">&#128269; Details</a>
+          <a href="{{ base_path }}{{ post.url }}" class="btn-cite">Details</a>
         </div>
       </div>
 
@@ -77,9 +77,9 @@ author_profile: true
       {% endif %}
       <div class="pub-links">
         {% if post.paperurl %}
-          <a href="{{ post.paperurl }}" class="btn-paper" target="_blank">&#128196; Paper</a>
+          <a href="{{ post.paperurl }}" class="btn-paper" target="_blank">Paper</a>
         {% endif %}
-        <a href="{{ base_path }}{{ post.url }}" class="btn-cite">&#128269; Details</a>
+        <a href="{{ base_path }}{{ post.url }}" class="btn-cite">Details</a>
       </div>
     </div>
   {% endfor %}

@@ -1,199 +1,272 @@
 ---
 layout: archive
-author_profile: true
+author_profile: false
 ---
 
 {% include base_path %}
 
-<!-- Hero Section -->
-<div class="home-hero">
-  <div class="home-hero-content">
-    <h1>Jiajun Ou</h1>
-    <p class="hero-role">PhD Student in Civil &amp; Environmental Engineering<br>AI-Powered Traffic Intelligence &amp; Computer Vision</p>
-    <span class="hero-affiliation">&#127979; Nanyang Technological University, Singapore</span>
-  </div>
-</div>
+<style>.archive > h1.page__title { display: none; }</style>
 
-<!-- Stats -->
-<div class="stats-row fade-up">
-  <div class="stat-item">
-    <div class="stat-icon">&#127919;</div>
-    <p class="stat-number">98.5%</p>
-    <p class="stat-label">Trajectory Accuracy</p>
+<!-- Intro -->
+<section class="home-hero">
+  <a class="hero-chip" href="#recognition">Finalist &middot; <b>Chua Thian Poh Pinnacle Prize 2026</b><span class="chip-go" aria-hidden="true">&rsaquo;</span></a>
+  <h1>Jiajun Ou</h1>
+  <p class="hero-sub"><em>AI-powered traffic intelligence</em> and computer vision.</p>
+  <p class="hero-meta">PhD student, Civil &amp; Environmental Engineering &middot; Nanyang Technological University, Singapore</p>
+  <div class="hero-actions">
+    <a class="btn-pill" href="mailto:{{ site.author.email }}">Get in touch</a>
+    <a class="link-more" href="{{ base_path }}/cv/">View CV</a>
   </div>
-  <div class="stat-item">
-    <div class="stat-icon">&#128218;</div>
-    <p class="stat-number">5+</p>
-    <p class="stat-label">SCI Publications</p>
+  <div class="hero-social">
+    <a href="https://github.com/{{ site.author.github }}" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+    <a href="mailto:{{ site.author.email }}" aria-label="Email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
   </div>
-  <div class="stat-item">
-    <div class="stat-icon">&#128176;</div>
-    <p class="stat-number">$100K+</p>
-    <p class="stat-label">Research Funding</p>
-  </div>
-  <div class="stat-item">
-    <div class="stat-icon">&#128240;</div>
-    <p class="stat-number">6</p>
-    <p class="stat-label">Patents</p>
-  </div>
-</div>
+</section>
 
-<!-- Entrepreneurship & Innovation -->
-<div class="section-header fade-up">
-  <h2>Entrepreneurship &amp; Innovation</h2>
-</div>
+<!-- Highlights -->
+<section class="band band-gray">
+  <div class="band-inner">
+    <div class="headline reveal">
+      <h2>Highlights.</h2>
+      <p>Research, ventures and recognition at a glance.</p>
+    </div>
+    <div class="bento">
+      <a class="tile tile-feature span-4 rows-2 reveal" href="#recognition">
+        <p class="tile-kicker">NTU Entrepreneurship Academy &middot; 2026</p>
+        <h3 class="tile-title"><span class="grad">Finalist,</span><br>Chua Thian Poh Pinnacle Prize</h3>
+        <p class="tile-text">Selected as a finalist of the Pinnacle Prize, run by the NTU Entrepreneurship Academy from February to October 2026.</p>
+      </a>
+      <div class="tile span-2 reveal">
+        <p class="tile-kicker">SmartFlow</p>
+        <p class="tile-num">98.5<small>%</small></p>
+        <p class="tile-label">trajectory extraction accuracy</p>
+      </div>
+      <div class="tile span-2 reveal">
+        <p class="tile-kicker">Intellectual property</p>
+        <p class="tile-num">6</p>
+        <p class="tile-label">patents, 4 as first inventor</p>
+      </div>
+      <div class="tile span-2 reveal">
+        <p class="tile-kicker">Publications</p>
+        <p class="tile-num">5+</p>
+        <p class="tile-label">SCI journal papers</p>
+      </div>
+      <div class="tile span-2 reveal">
+        <p class="tile-kicker">Funding</p>
+        <p class="tile-num">$100K+</p>
+        <p class="tile-label">secured for research</p>
+      </div>
+      <div class="tile tile-photo span-2 reveal">
+        <img src="{{ base_path }}/images/home/apicta-stage.jpg" alt="Team on stage at the APICTA Awards" loading="lazy">
+        <div class="tile-caption">
+          <p class="tile-kicker">APICTA Awards</p>
+          <h3 class="tile-title">Merit 2023 &middot; NTU Rep 2024</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="card-grid card-grid-2 fade-up">
-  <div class="card">
-    <div class="card-icon">&#129302;</div>
-    <h3>MorphTwin <span style="font-size:0.65em;color:var(--accent);font-weight:500;">2025&ndash;Present</span></h3>
-    <p style="margin-bottom:10px;">Multi-Modal AI Traffic Intelligence Platform fusing 9 LTA DataMall real-time API streams. Custom Vision-Language Model achieving <strong>87.3% accuracy</strong> on Singapore traffic scenes (vs. GPT-4o at 62%).</p>
-    <ul>
-      <li>SaaS model at S$50/camera/month targeting S$45M PolCam expansion</li>
-      <li>Applying for NTU GET Innovation Grant &amp; Kumar Fellowship</li>
-    </ul>
+<!-- Research -->
+<section class="band">
+  <div class="band-inner">
+    <div class="headline reveal">
+      <h2>Research focus.</h2>
+      <p>Computer vision and AI for safer, smarter transportation.</p>
+    </div>
+    <div class="focus-grid">
+      <article class="focus-card reveal">
+        <figure><img src="{{ base_path }}/images/home/uav-field-test.jpg" alt="A drone hovering above a test vehicle during a field test" loading="lazy"></figure>
+        <div class="focus-body">
+          <h3>Traffic Intelligence</h3>
+          <ul>
+            <li>Mixed traffic flow trajectory extraction</li>
+            <li>Collision risk assessment &amp; VRU protection</li>
+            <li>Vision-language models for traffic scenes</li>
+          </ul>
+        </div>
+      </article>
+      <article class="focus-card reveal">
+        <figure><img src="{{ base_path }}/images/home/field-demo.jpg" alt="Live demonstration of the tracking system" loading="lazy"></figure>
+        <div class="focus-body">
+          <h3>Computer Vision &amp; AI</h3>
+          <ul>
+            <li>YOLOv8-MHA + DeepSORT-OBB frameworks</li>
+            <li>Real-time multi-target tracking</li>
+            <li>3D digital twin visualisation</li>
+          </ul>
+        </div>
+      </article>
+      <article class="focus-card reveal">
+        <figure><img src="{{ base_path }}/images/home/demo-day.jpg" alt="Demonstrating the system to visitors" loading="lazy"></figure>
+        <div class="focus-body">
+          <h3>Smart Transportation</h3>
+          <ul>
+            <li>LTA DataMall API integration (9 endpoints)</li>
+            <li>Edge computing &amp; model optimisation</li>
+            <li>Causal inference (DoWhy) for traffic</li>
+          </ul>
+        </div>
+      </article>
+    </div>
   </div>
-  <div class="card">
-    <div class="card-icon">&#128663;</div>
-    <h3>SmartFlow <span style="font-size:0.65em;color:var(--accent);font-weight:500;">2024&ndash;2025</span></h3>
-    <p style="margin-bottom:10px;">Vehicle Trajectory Extraction System. NTU GET Innovation Grant (S$5,000, completed). YOLOv8-MHA detection (<strong>0.924&ndash;0.957 precision</strong>) + DeepSORT-OBB tracking (<strong>99.13% MOTA</strong>).</p>
-    <ul>
-      <li>Field-tested at 5 Singapore locations under rain, night &amp; glare</li>
-      <li>Core pipeline now powers MorphTwin's CV layer</li>
-    </ul>
-  </div>
-  <div class="card">
-    <div class="card-icon">&#128200;</div>
-    <h3>TrafficSense <span style="font-size:0.65em;color:var(--accent);font-weight:500;">2023&ndash;2024</span></h3>
-    <p style="margin-bottom:10px;">Hong Kong Traffic AI Venture. Co-Founder, secured <strong>HK$100,000</strong> seed funding from HKSTP.</p>
-    <ul>
-      <li>AI-powered traffic monitoring for Hong Kong urban environment</li>
-      <li>Core detection &amp; tracking algorithm development</li>
-    </ul>
-  </div>
-  <div class="card">
-    <div class="card-icon">&#128187;</div>
-    <h3>EdgeAI-LLM <span style="font-size:0.65em;color:var(--accent);font-weight:500;">2023&ndash;Present</span></h3>
-    <p style="margin-bottom:10px;">LLM Deployment for Education. Targeting Cyberport Creative Micro Fund (Hong Kong).</p>
-    <ul>
-      <li>QLoRA &amp; PEFT for efficient edge AIPC deployment</li>
-      <li>8 tertiary institutions in Greater Bay Area</li>
-    </ul>
-  </div>
-</div>
+</section>
 
-<!-- Research Areas -->
-<div class="section-header fade-up" style="margin-top: 50px;">
-  <h2>Research Focus</h2>
-</div>
-
-<div class="card-grid card-grid-3 fade-up">
-  <div class="card">
-    <div class="card-icon">&#128663;</div>
-    <h3>Traffic Intelligence</h3>
-    <ul>
-      <li>Mixed traffic flow trajectory extraction</li>
-      <li>Collision risk assessment &amp; VRU protection</li>
-      <li>Vision-Language Models for traffic scenes</li>
-    </ul>
+<!-- Ventures -->
+<section class="band band-gray">
+  <div class="band-inner">
+    <div class="headline reveal">
+      <h2>Building.</h2>
+      <p>Turning research into products. <a class="link-more" href="{{ base_path }}/portfolio/">Patents &amp; projects</a></p>
+    </div>
+    <div class="venture-grid">
+      <article class="venture reveal">
+        <p class="venture-when">2025 &ndash; Present &middot; Founder</p>
+        <h3>MorphTwin</h3>
+        <p class="venture-tag">Multi-modal AI traffic intelligence platform</p>
+        <div class="venture-stat"><b>87.3%</b><span>VLM accuracy on Singapore traffic scenes (GPT-4o: 62%)</span></div>
+        <p class="venture-note">Fuses 9 LTA DataMall real-time API streams. SaaS at S$50/camera/month, targeting the S$45M PolCam expansion.</p>
+      </article>
+      <article class="venture reveal">
+        <p class="venture-when">2024 &ndash; 2025 &middot; Sole founder</p>
+        <h3>SmartFlow</h3>
+        <p class="venture-tag">Vehicle trajectory extraction system</p>
+        <div class="venture-stat"><b>99.13%</b><span>MOTA with DeepSORT-OBB tracking</span></div>
+        <p class="venture-note">NTU GET Innovation Grant (S$5,000, completed). Field-tested at 5 Singapore locations under rain, night and glare.</p>
+      </article>
+      <article class="venture reveal">
+        <p class="venture-when">2023 &ndash; 2024 &middot; Co-founder</p>
+        <h3>TrafficSense</h3>
+        <p class="venture-tag">Hong Kong traffic AI venture</p>
+        <div class="venture-stat"><b>HK$100K</b><span>seed funding from HKSTP</span></div>
+        <p class="venture-note">AI-powered traffic monitoring for Hong Kong's urban environment; core detection and tracking algorithms.</p>
+      </article>
+      <article class="venture reveal">
+        <p class="venture-when">2023 &ndash; Present &middot; Project lead</p>
+        <h3>EdgeAI-LLM</h3>
+        <p class="venture-tag">LLM deployment for education</p>
+        <div class="venture-stat"><b>8</b><span>tertiary institutions in the Greater Bay Area</span></div>
+        <p class="venture-note">QLoRA &amp; PEFT for efficient edge AIPC deployment. Targeting the Cyberport Creative Micro Fund.</p>
+      </article>
+    </div>
   </div>
-  <div class="card">
-    <div class="card-icon">&#129302;</div>
-    <h3>Computer Vision &amp; AI</h3>
-    <ul>
-      <li>YOLOv8-MHA + DeepSORT-OBB frameworks</li>
-      <li>Real-time multi-target tracking</li>
-      <li>3D Digital Twin visualization</li>
-    </ul>
-  </div>
-  <div class="card">
-    <div class="card-icon">&#127961;</div>
-    <h3>Smart Transportation</h3>
-    <ul>
-      <li>LTA DataMall API integration (9 endpoints)</li>
-      <li>Edge computing &amp; model optimization</li>
-      <li>Causal inference (DoWhy) for traffic</li>
-    </ul>
-  </div>
-</div>
+</section>
 
 <!-- Education -->
-<div class="section-header fade-up" style="margin-top: 50px;">
-  <h2>Education</h2>
-</div>
-
-<div class="fade-up">
-  <div class="timeline-item">
-    <h4>Ph.D., Civil &amp; Environmental Engineering</h4>
-    <div class="timeline-date">2025 &ndash; Present &middot; Nanyang Technological University, Singapore</div>
-    <p>AI-Powered Traffic Intelligence &middot; Supervisor: Prof. Zhu Feng</p>
-  </div>
-  <div class="timeline-item">
-    <h4>M.Eng., Control Science and Engineering</h4>
-    <div class="timeline-date">Sep 2022 &ndash; Jun 2025 &middot; Guangdong University of Technology</div>
-    <p>WAM: 88.3/100 (Top 2%) &middot; National Scholarship recipient (twice)</p>
-  </div>
-  <div class="timeline-item">
-    <h4>B.Eng., Data Science and Big Data Technology</h4>
-    <div class="timeline-date">Sep 2018 &ndash; Jun 2022 &middot; Guangdong University of Technology</div>
-    <p>WAM: 83.19/100 &middot; Outstanding Undergraduate Thesis Award</p>
-  </div>
-</div>
-
-<!-- Awards -->
-<div class="section-header fade-up" style="margin-top: 50px;">
-  <h2>Honors &amp; Recognition</h2>
-</div>
-
-<div class="award-list fade-up">
-  <div class="award-item">
-    <div class="award-badge">&#127942;</div>
-    <div class="award-info">
-      <h4>APICTA Awards (Twice)</h4>
-      <p>Merit 2023 (China Rep) &amp; NTU Rep at APICTA 2024 Brunei</p>
+<section class="band">
+  <div class="band-inner">
+    <div class="headline reveal">
+      <h2>Education.</h2>
+    </div>
+    <div class="journey">
+      <div class="journey-row reveal">
+        <div class="journey-when">2025 &ndash; Present</div>
+        <div>
+          <h3>Ph.D., Civil &amp; Environmental Engineering</h3>
+          <p class="journey-where">Nanyang Technological University, Singapore</p>
+          <p class="journey-note">AI-Powered Traffic Intelligence &middot; Supervisor: Prof. Zhu Feng</p>
+        </div>
+      </div>
+      <div class="journey-row reveal">
+        <div class="journey-when">2022 &ndash; 2025</div>
+        <div>
+          <h3>M.Eng., Control Science and Engineering</h3>
+          <p class="journey-where">Guangdong University of Technology</p>
+          <p class="journey-note">WAM 88.3/100 (Top 2%) &middot; National Scholarship recipient (twice)</p>
+        </div>
+      </div>
+      <div class="journey-row reveal">
+        <div class="journey-when">2018 &ndash; 2022</div>
+        <div>
+          <h3>B.Eng., Data Science and Big Data Technology</h3>
+          <p class="journey-where">Guangdong University of Technology</p>
+          <p class="journey-note">WAM 83.19/100 &middot; Outstanding Undergraduate Thesis Award</p>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="award-item">
-    <div class="award-badge">&#127941;</div>
-    <div class="award-info">
-      <h4>National Scholarship (Twice)</h4>
-      <p>Top 0.2% nationally, Ministry of Education (2023 &amp; 2024)</p>
-    </div>
-  </div>
-  <div class="award-item">
-    <div class="award-badge">&#127775;</div>
-    <div class="award-info">
-      <h4>Challenge Cup Grand Prize</h4>
-      <p>Guangdong Province, China's premier innovation competition</p>
-    </div>
-  </div>
-  <div class="award-item">
-    <div class="award-badge">&#127944;</div>
-    <div class="award-info">
-      <h4>International Competition 2nd Prize</h4>
-      <p>Intelligent Simulation of Transport Infrastructure (2024)</p>
-    </div>
-  </div>
-</div>
+</section>
 
-<!-- CTA -->
-<div class="cta-section fade-up">
-  <h2>Let's Collaborate</h2>
-  <p>Interested in traffic intelligence, computer vision, or AI-powered transportation systems? I'm always open to new collaborations.</p>
-  <div class="cta-buttons">
-    <a href="mailto:Jiajun010@e.ntu.edu.sg" class="cta-btn cta-btn-primary">&#9993;&#65039; Email Me</a>
-    <a href="https://github.com/Kingsely-o" class="cta-btn cta-btn-secondary">&#128187; GitHub</a>
-    <a href="{{ base_path }}/ngt-team/" class="cta-btn cta-btn-secondary">&#128101; NGT Team</a>
+<!-- Recognition -->
+<section class="band band-dark" id="recognition">
+  <div class="band-inner">
+    <div class="headline reveal">
+      <h2>Recognition.</h2>
+    </div>
+    <div class="honors">
+      <div class="honor is-new reveal">
+        <div>
+          <h3><span class="grad">Chua Thian Poh Pinnacle Prize</span> &mdash; Finalist</h3>
+          <p>NTU Entrepreneurship Academy &middot; Feb &ndash; Oct 2026</p>
+        </div>
+        <span class="honor-year">2026</span>
+      </div>
+      <div class="honor reveal">
+        <div>
+          <h3>APICTA Awards (twice)</h3>
+          <p>Merit 2023 (China Rep) &amp; NTU Rep at APICTA 2024 Brunei</p>
+        </div>
+        <span class="honor-year">2023 &middot; 2024</span>
+      </div>
+      <div class="honor reveal">
+        <div>
+          <h3>National Scholarship (twice)</h3>
+          <p>Top 0.2% nationally, Ministry of Education</p>
+        </div>
+        <span class="honor-year">2023 &middot; 2024</span>
+      </div>
+      <div class="honor reveal">
+        <div>
+          <h3>Challenge Cup Grand Prize</h3>
+          <p>Guangdong Province, China's premier innovation competition</p>
+        </div>
+        <span class="honor-year">2023</span>
+      </div>
+      <div class="honor reveal">
+        <div>
+          <h3>International Competition 2nd Prize</h3>
+          <p>Intelligent Simulation of Transport Infrastructure</p>
+        </div>
+        <span class="honor-year">2024</span>
+      </div>
+    </div>
   </div>
-</div>
+</section>
+
+<!-- Closing -->
+<section class="closing reveal">
+  <h2>Let's work together.</h2>
+  <p>Interested in traffic intelligence, computer vision or AI-powered transportation? I'm always open to new collaborations.</p>
+  <div class="hero-actions">
+    <a class="btn-pill" href="mailto:{{ site.author.email }}">Email me</a>
+    <a class="link-more" href="{{ base_path }}/ngt-team/">Meet the NGT Team</a>
+  </div>
+</section>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  var observer = new IntersectionObserver(function(entries) {
-    entries.forEach(function(entry) {
-      if (entry.isIntersecting) { entry.target.classList.add('visible'); }
+(function () {
+  var pending = Array.prototype.slice.call(document.querySelectorAll('.reveal'));
+  var ticking = false;
+
+  // Reveal everything whose top edge is above the trigger line, including
+  // items the reader scrolled or jumped past, so nothing stays hidden.
+  function update(limit) {
+    pending = pending.filter(function (el) {
+      if (el.getBoundingClientRect().top < limit) { el.classList.add('is-in'); return false; }
+      return true;
     });
-  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
-  document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
-});
+    if (!pending.length) window.removeEventListener('scroll', onScroll);
+  }
+  function onScroll() {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(function () { update(window.innerHeight * 0.92); ticking = false; });
+  }
+
+  update(window.innerHeight);          // on-screen content never animates
+  document.documentElement.classList.add('js-reveal');
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll);
+})();
 </script>
